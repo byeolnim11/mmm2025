@@ -1,6 +1,6 @@
 # **Enhancing Visual Details in Diffusion-based Image Generation**
 
-This project contains implementation for our ICME2024 (under review) paper.
+This project contains implementation for our mmm2025 (under review) paper.
 
 ![fig1](image/overview.jpg)
 
@@ -12,7 +12,7 @@ In the subsequent experiments, we identified issues with the parameters used in 
   
 ## ABSTRACT
 
-The advent of diffusion models marks significant progress in high-quality image generation, enabling diverse and realistic images from simple text descriptions. While these models accurately capture overall semantic information, they often fall short in textures and even generate details inconsistent with the input prompts. Addressing this challenge, we set a new image generation scenario that obtaining a base image via related resources or text-to-image models by given a text description and generating high-quality image that aligns with adding detailed descriptions. Under this scenario, we propose a baseline approach including three stages: text descriptions optimization, base image acquisition and targeted image regeneration. Optimizing initial textual descriptions through Language Models(LMs) can generate prompts more conducive to text-to-image generation models. Images obtained via retrieval or generation models are matched with text descriptions to select an appropriate base image. By employing ControlNet, the baseline method can regenerate images that conform to detailed descriptions while preserving the outlines of the base image. We simulate this image generation scenario with two datasets, CUB and Flower, and evaluate the efficiency of our baseline method. Furthermore, we compare the impact of different base images on the generation quality. Code is in: https://github.com/byeolnim11/icme2024.
+The advent of diffusion models marks significant progress in high-quality image generation, enabling diverse and realistic images from simple text descriptions. While these models accurately capture overall semantic information, they often fall short in textures and even generate details inconsistent with the input prompts. Addressing this challenge, we set a new image generation scenario that obtaining a base image via related resources or text-to-image models by given a text description and generating high-quality image that aligns with adding detailed descriptions. Under this scenario, we propose a baseline approach including three stages: text descriptions optimization, base image acquisition and targeted image regeneration. Optimizing initial textual descriptions through Language Models(LMs) can generate prompts more conducive to text-to-image generation models. Images obtained via retrieval or generation models are matched with text descriptions to select an appropriate base image. By employing ControlNet, the baseline method can regenerate images that conform to detailed descriptions while preserving the outlines of the base image. We simulate this image generation scenario with two datasets, CUB and Flower, and evaluate the efficiency of our baseline method. Furthermore, we compare the impact of different base images on the generation quality.
 
 ## Prerequisites
 
@@ -32,8 +32,8 @@ The advent of diffusion models marks significant progress in high-quality image 
 We used Anaconda to setup a deep learning workspace that supports PyTorch. Run the following script to install all the required packages.
 
 ```
-git clone https://github.com/byeolnim11/icme2024.git
-cd icme2024
+git clone https://github.com/byeolnim11/mmm2025.git
+cd mmm2025
 conda env create -f environment.yaml
 conda activate enhanced-diffusion
 ```
