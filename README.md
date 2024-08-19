@@ -97,6 +97,6 @@ python main.py
 
 <div align=center><img src=image/gen.jpg width=90%>
 
-<div align=center><img src=image/table.png width=60%></div>
+<div align=center><img src=image/table.jpg width=60%></div>
 
-<div align=center><img src=image/table1.png width=60%></div>
+<div align=center><img src=image/table2.jpg width=60%></div>
